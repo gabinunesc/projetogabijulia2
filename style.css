@@ -57,3 +57,21 @@ justify-content: space-between;
     font-size: 1.4rem;
     padding: 2rem;
 }
+
+.pergunta-cartao{
+    color: var(--branco);
+    font-weight: 500;
+}
+
+.resposta-cartao{
+    color: var(--destaque);
+    font-weight: 700;
+}
+
+.cartao:hover .conteudo-cartao{
+    transform: rotateY(180deg);
+}
+
+.pergunta-cartao, .resposta-cartao{
+    backface-visibility: hidden;
+}
