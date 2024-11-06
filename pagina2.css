@@ -1,7 +1,7 @@
 :root{
     --fundo: #4682B4;
     --cartao-frente: #87CEEB;
-    --cartao-verso: #87CEFA;
+    --cartao-verso: hsl(203, 61%, 44%);
     --destaque: #0000FF;
     --preto: #000000;
     --branco: #ffffff;
